@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: vga-437;
+  src: url("/fonts/vga-437.ttf") format("ttf");
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: vga-437, "Courier New", Courier, monospace;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+  font-weight: normal;
+}
+
+:root {
+  --bg-color: #202020;
+}
+
+body {
+  color: #e8e6e3;
+  background-color: var(--bg-color);
+  overflow-y: hidden;
+}
+
+.list li::before {
+  content: "\2022";
+  color: #7f1d1d;
+  font-weight: 900;
+  font-family: monospace;
+  display: inline-block;
+  font-size: 1em;
+  width: 1em;
+}
