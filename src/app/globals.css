@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: vga-437;
-  src: url("/fonts/vga-437.ttf") format("ttf");
+  src: url("/fonts/vga-437.ttf") format("truetype");
   font-style: normal;
   font-display: swap;
 }

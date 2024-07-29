@@ -15,11 +15,11 @@ const About = () => {
       </h1>
       <div className="align-center text-sm lg:text-base">
         <p className="mb-2">
-          I&rsquo;m a hobbyist developer and tech enthusiast from El Paso, Texas. I make some
+          I&apos;m a hobbyist developer and tech enthusiast from El Paso, Texas. I make some
           random dumb stuff every now and then.
         </p>
         <p className="mb-2">
-          I&rsquo;ve been into computing and technology since I got my first PC
+          I&apos;ve been into computing and technology since I got my first PC
           when I was 8, never stopped learning and messing around since then.
         </p>
 

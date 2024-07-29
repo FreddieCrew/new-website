@@ -50,7 +50,7 @@ const Projects = () => {
                 <div className="mt-3">
                   <p>
                     Modern and straightforward C++ SA-MP plugin boilerplate
-                    based on Southclaws&rsquo; version
+                    based on Southclaws&apos; version
                   </p>
 
                   <div>
